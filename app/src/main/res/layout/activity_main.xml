@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/top_rounded_white_view"
+        android:filterTouchesWhenObscured="false"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="5dp"
+                android:padding="12dp"
+                android:src="@drawable/back_arrow"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvMainTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center"
+                android:text="View Reports"
+                android:textColor="@color/background_text_fit_black"
+                android:textSize="16dp"
+                app:fontFamily="@font/roboto_bold" />
+
+            <ImageView
+                android:id="@+id/imgClose"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:padding="12dp"
+                android:src="@drawable/close_button" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/gray" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llNoTransactions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp"
+            android:paddingBottom="50dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:text="No transaction yet"
+                android:textColor="@color/background_text_fit_black"
+                android:textSize="15dp"
+                android:visibility="visible"
+                app:fontFamily="@font/roboto_bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center"
+                android:text="You'll be able to view all your transactions\nhere at once."
+                android:textColor="@color/background_text_fit_black"
+                android:textSize="13dp"
+                android:visibility="visible"
+                app:fontFamily="@font/roboto_regular" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llReportMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            tools:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/cvSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="0dp"
+                app:cardBackgroundColor="@color/background_main_light"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="23dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="23dp">
+
+                        <EditText
+                            android:id="@+id/edSearch"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginEnd="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:background="@drawable/layout_search_bg"
+                            android:hint="Search"
+                            android:imeOptions="actionSearch"
+                            android:longClickable="false"
+                            android:maxLines="1"
+                            android:paddingLeft="35dp"
+                            android:paddingRight="15dp"
+                            android:singleLine="true"
+                            android:textColor="@color/background_text_fit_black"
+                            android:textColorHint="@color/background_text_fit_black_light"
+                            android:textSize="16dp" />
+
+                        <ImageView
+                            android:id="@+id/imgSearch"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentEnd="false"
+                            android:layout_marginEnd="0dp"
+                            android:padding="10dp"
+                            android:src="@mipmap/search_icon"
+                            app:tint="@color/background_text_fit_black_light" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/imgFalg"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentEnd="true"
+                            android:src="@mipmap/all_countries"
+                            android:visibility="gone"
+                            app:civ_border_color="@color/grayLite"
+                            app:civ_border_width="1dp"
+                            tools:visibility="gone" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tvTotalNumberHint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/background_text_fit_black"
+                        android:textSize="13dp"
+                        android:visibility="gone"
+                        app:fontFamily="@font/roboto_regular"
+                        tools:visibility="visible" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--Shimmer View-->
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shimmerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:shimmer_auto_start="true"
+                app:shimmer_duration="1500">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+
+                    <include layout="@layout/shimmer_report_list" />
+                </LinearLayout>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:paddingLeft="3dp"
+                android:paddingTop="5dp"
+                android:paddingRight="3dp"
+                android:paddingBottom="5dp"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <View
+                    android:id="@+id/vNoData"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+                <include layout="@layout/history_recyclerview" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/innerLayoutInvoiceNew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

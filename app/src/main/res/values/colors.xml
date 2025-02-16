@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_text_fit_black">#000000</color>
+    <color name="background_text_fit_black_transparent">#00000000</color>
+    <color name="background_text_fit_white">#ffffff</color>
+    <color name="background_text_fit_edittext_hint">#C5C5C5</color>
+    <color name="background_text_fit_edittext_hint_lightmode">#C5C5C5</color>
+    <color name="background_text_fit_inactive">#C5C5C5</color>
+
+    <color name="p">#1ECFC9</color>
+
+
+
+    <color name="background_round_fit_light_grey">#E6E6E6</color>
+
+    <color name="background_text_fit_white_transparent">#00ffffff</color>
+
+
+    <color name="background_text_fit_black_light">#282828</color>
+    <color name="background_text_fit_grey">#FDFDFD</color>
+    <!--    <color name="background_main">#ffffff</color>-->
+    <color name="background_main">#F6F6F6</color>
+    <color name="background_main_lightmode">#F6F6F6</color>
+    <color name="background_main_opacity50">#80F6F6F6</color>
+    <color name="background_cardView">#ffffff</color>
+    <color name="background_main_light">#E1E1E1</color>
+    <color name="border_main">#878787</color>
+    <color name="darkfit_icon_color">#6B6B6B</color>
+    <!--    <color name="colorPrimary">#0ECFC9</color>-->
+    <color name="colorPrimary">#0ECFC9</color>
+    <color name="colorPrimaryTrans">#770E80F4</color>
+    <!--    <color name="colorPrimaryDark">#06605C</color>-->
+    <color name="colorPrimaryDark">#0ECFC9</color>
+    <color name="colorAccent">#0AA19C</color>
+
+    <color name="colorPrimaryMerchant">#e15b10</color>
+    <color name="colorPrimaryDarkMerchant">#d22509</color>
+    <color name="colorAccentMerchant">#e9703b</color>
+    <color name="primaryMerchantLight">#EF7E4C</color>
+    <color name="primaryMerchantLightest">#F6C4AE</color>
+    <color name="merchantToggle">#872e0b</color>
+
+    <color name="primaryUserLightest">#0BB1AB</color>
+    <color name="primaryUserLight">#098883</color>
+    <color name="line">#E0E0E0</color>
+
+    <color name="cashbackEnd">#8F94FB</color>
+    <color name="cashbackStart">#4E54C8</color>
+
+    <color name="voucherEnd">#FFC371</color>
+    <color name="voucherStart">#FF5F6D</color>
+
+    <color name="remicoinsEnd">#78FFD6</color>
+    <color name="remicoinsStart">#007991</color>
+
+    <!--    <color name="primaryUserDark">#FFFFFF</color>-->
+    <!--    <color name="primaryUserDark">#06605C</color>-->
+    <color name="primaryUserDark">#0ECFC9</color>
+
+    <color name="primaryUserDarker">#054E4B</color>
+    <color name="primaryUserDarkest">#043A38</color>
+
+    <color name="lightBlue">#EDF3F8</color>
+
+    <color name="yellow">#F4DC08</color>
+    <color name="yellowDark">#FFFBB034</color>
+    <!--    <color name="yellow1">#d22509</color>-->
+    <!--    <color name="yellow2">#e15b10</color>-->
+    <!--    <color name="yellow3">#e9703b</color>-->
+
+    <color name="pink">#ED1E79</color>
+    <color name="green">#39B44A</color>
+    <color name="greenScratchCard">#8CC63F</color>
+
+    <color name="greenReport">#009444</color>
+    <color name="redReport">#c4161c</color>
+
+    <color name="voucherBg1">#ED1E79</color>
+    <color name="voucherBg2">#86B53C</color>
+    <color name="voucherBg3">#FFFBB034</color>
+    <color name="voucherBg4">#039C70</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparentWhite">#22FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitePopup">#FFFFFF</color>
+    <color name="gray">#CCC8C8</color>
+    <color name="gray_light">#E1E1E1</color>
+    <color name="grayLight">#EDEDED</color>
+    <color name="shimmer">#ACA8A8</color>
+    <color name="grayLite">#EDEDED</color>
+    <color name="grayLitest">#F8F5F5</color>
+
+    <color name="blackalpha10">#10000000</color>
+    <color name="red">#F81111</color>
+    <color name="blackLight">#2E2E2E</color>
+    <color name="darkGrey">#636363</color>
+    <color name="grey">#636363</color>
+    <color name="black">#000000</color>
+    <color name="black_no_change">#000000</color>
+    <color name="blackMedium">#2B2A2A</color>
+    <color name="blackTrans">#88000000</color>
+    <color name="blackTransDark">#BB000000</color>
+    <color name="grayTrans">#77CCC8C8</color>
+
+    <color name="blackTransCommon">#002E2E2E</color>
+    <color name="whiteCommon">#FFFFFF</color>
+    <color name="homeViewBg">#88000000</color>
+    <color name="blackCommon">#000000</color>
+    <color name="blackLightCommon">#2E2E2E</color>
+    <color name="grayLiteLanguage">#EDEDED</color>
+    <color name="blackMediumCommon">#2B2A2A</color>
+    <color name="walkThroughBg">#E3F1FF</color>
+    <color name="popupFullBg">#BF000000</color>
+    <color name="darkGreyPopup">#636363</color>
+    <color name="popupBgNew">#FFFFFF</color>
+    <color name="dialogBlackBgTrans">#88000000</color>
+
+    <color name="ovalScanSelfeeBackground">#bbffffff</color>
+
+    <color name="whiteTransparent0">#00ffffff</color>
+    <color name="whiteTransparent1">#11ffffff</color>
+    <color name="whiteTransparent2">#22ffffff</color>
+    <color name="whiteTransparent3">#33ffffff</color>
+    <color name="whiteTransparent4">#44ffffff</color>
+    <color name="whiteTransparent5">#55ffffff</color>
+    <color name="whiteTransparent6">#66ffffff</color>
+    <color name="whiteTransparent7">#77ffffff</color>
+    <color name="whiteTransparent8">#88ffffff</color>
+    <color name="whiteTransparent9">#99ffffff</color>
+    <color name="whiteTransparent10">#aaffffff</color>
+    <color name="whiteTransparent11">#bbffffff</color>
+    <color name="whiteTransparent12">#ccffffff</color>
+    <color name="whiteTransparent13">#ddffffff</color>
+    <color name="whiteTransparent14">#eeffffff</color>
+    <color name="whiteTransparent15">#ffffff</color>
+
+    <color name="whiteTransparentCommon0">#00ffffff</color>
+    <color name="whiteTransparentCommon1">#11ffffff</color>
+    <color name="whiteTransparentCommon2">#22ffffff</color>
+    <color name="whiteTransparentCommon3">#33ffffff</color>
+    <color name="whiteTransparentCommon4">#44ffffff</color>
+    <color name="whiteTransparentCommon5">#55ffffff</color>
+    <color name="whiteTransparentCommon6">#66ffffff</color>
+    <color name="whiteTransparentCommon7">#77ffffff</color>
+    <color name="whiteTransparentCommon8">#88ffffff</color>
+    <color name="whiteTransparentCommon9">#99ffffff</color>
+    <color name="whiteTransparentCommon10">#aaffffff</color>
+    <color name="whiteTransparentCommon11">#bbffffff</color>
+    <color name="whiteTransparentCommon12">#ccffffff</color>
+    <color name="whiteTransparentCommon13">#ddffffff</color>
+    <color name="whiteTransparentCommon14">#eeffffff</color>
+    <color name="whiteTransparentCommon15">#ffffff</color>
+
+    <color name="blackLightTransparent0">#002E2E2E</color>
+    <color name="blackLightTransparent1">#112E2E2E</color>
+    <color name="blackLightTransparent2">#222E2E2E</color>
+    <color name="blackLightTransparent3">#332E2E2E</color>
+    <color name="blackLightTransparent4">#442E2E2E</color>
+    <color name="blackLightTransparent5">#552E2E2E</color>
+    <color name="blackLightTransparent6">#662E2E2E</color>
+    <color name="blackLightTransparent7">#772E2E2E</color>
+    <color name="blackLightTransparent8">#882E2E2E</color>
+    <color name="blackLightTransparent9">#992E2E2E</color>
+    <color name="blackLightTransparent10">#aa2E2E2E</color>
+    <color name="blackLightTransparent11">#bb2E2E2E</color>
+    <color name="blackLightTransparent12">#cc2E2E2E</color>
+    <color name="blackLightTransparent13">#dd2E2E2E</color>
+    <color name="blackLightTransparent14">#ee2E2E2E</color>
+    <color name="blackLightTransparent15">#2E2E2E</color>
+
+    <color name="grayDarkTransparent0">#00929292</color>
+    <color name="grayDarkTransparent1">#11929292</color>
+    <color name="grayDarkTransparent2">#22929292</color>
+    <color name="grayDarkTransparent3">#33929292</color>
+    <color name="grayDarkTransparent4">#44929292</color>
+    <color name="grayDarkTransparent5">#55929292</color>
+    <color name="grayDarkTransparent6">#66929292</color>
+    <color name="grayDarkTransparent7">#77929292</color>
+    <color name="grayDarkTransparent8">#88929292</color>
+    <color name="grayDarkTransparent9">#99929292</color>
+    <color name="grayDarkTransparent10">#aa929292</color>
+    <color name="grayDarkTransparent11">#bb929292</color>
+    <color name="grayDarkTransparent12">#cc929292</color>
+    <color name="grayDarkTransparent13">#dd929292</color>
+    <color name="grayDarkTransparent14">#ee929292</color>
+    <color name="grayDarkTransparent15">#929292</color>
+
+    <color name="blackTransparent0">#00000000</color>
+    <color name="blackTransparent1">#11000000</color>
+    <color name="blackTransparent2">#22000000</color>
+    <color name="blackTransparent3">#33000000</color>
+    <color name="blackTransparent4">#44000000</color>
+    <color name="blackTransparent5">#55000000</color>
+    <color name="blackTransparent6">#66000000</color>
+    <color name="blackTransparent7">#77000000</color>
+    <color name="blackTransparent8">#88000000</color>
+    <color name="blackTransparent9">#99000000</color>
+    <color name="blackTransparent10">#aa000000</color>
+    <color name="blackTransparent11">#bb000000</color>
+    <color name="blackTransparent12">#cc000000</color>
+    <color name="blackTransparent13">#dd000000</color>
+    <color name="blackTransparent14">#ee000000</color>
+    <color name="blackTransparent15">#000000</color>
+    <color name="background_round_fit_grey">#CCCCCC</color>
+
+</resources>
